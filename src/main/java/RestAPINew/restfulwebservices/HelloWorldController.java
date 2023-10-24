@@ -1,8 +1,6 @@
 package RestAPINew.restfulwebservices;
 
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController //This will make this controller a Rest controller
