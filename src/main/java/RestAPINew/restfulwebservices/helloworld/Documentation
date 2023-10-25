@@ -1,0 +1,43 @@
+Get - Retrieves the details of a resource
+
+POST - Creates a new resource
+
+PUT- Updates the details of an existing resource
+
+PATCH - Update part of a resource
+
+DELETE -  Delete  a resource
+
+
+
+
+Social Media Application - resources and Methods
+
+Users REST API
+-GET/users
+
+Create a User
+-POST/users
+
+Retrieve one User
+-GET/Users/{id}->/Users/1 (here we are using a path variable)
+
+DELETE a User
+-DELETE/users/{id}->/users/1
+
+Posts(Social media post) REST PI
+Retrieve  all posts for a User
+-GET/users/{id}/posts
+
+Create a post for a user
+-POST/users/{id}/posts
+
+Retrieve details of a post
+-GET/users/{id}/posts/{post_id}
+
+
+
+All the variables that are declared in User.java and upon creating Constructors, setters and getters ,toString() -> this whole thing is called a "JAVA BEAN".
+Now we can build a RESTAPI around the above created User Bean.
+
+To play with data stored in a database we need to create a DAO object(Data Access Object).
