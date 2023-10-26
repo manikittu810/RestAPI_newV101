@@ -41,3 +41,14 @@ All the variables that are declared in User.java and upon creating Constructors,
 Now we can build a RESTAPI around the above created User Bean.
 
 To play with data stored in a database we need to create a DAO object(Data Access Object).
+
+------------------------------------------------------------------------------------------------------
+
+Users Rest API
+
+-Retrieve alla users
+--GET/users
+
+Create a User
+--POST/users
+
