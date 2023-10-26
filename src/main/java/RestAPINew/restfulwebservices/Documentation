@@ -46,9 +46,24 @@ To play with data stored in a database we need to create a DAO object(Data Acces
 
 Users Rest API
 
--Retrieve alla users
+-Retrieve all users
 --GET/users
 
 Create a User
 --POST/users
 
+-------------------------------------
+Response status for REST API
+
+404->Resource not found
+500->sever exception
+400->validation error
+
+IMPORTANT RESPONSE STATUSES
+
+200->Success
+201->Created
+204->no-content
+401->Unauthorized(When authorization fails)
+404->resource not found
+500->server exception
