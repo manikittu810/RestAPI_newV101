@@ -1,6 +1,5 @@
 package RestAPINew.restfulwebservices.user;
 
-import RestAPINew.restfulwebservices.user.User;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
@@ -30,6 +29,10 @@ public class UserDaoService {
     public User findOne(int id){
         Predicate<? super User> predicate= user-> user.getId().equals(id);
         return users.stream().filter(predicate).findFirst().orElse(null);
+    }
+    public void deleteById(int id){
+        Predicate<? super User> predicate= user-> user.getId().equals(id);
+        users.removeIf(predicate);
     }
     public User save(User user){
         user.setId(++usersCount);
