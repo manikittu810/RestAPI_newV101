@@ -69,3 +69,17 @@ IMPORTANT RESPONSE STATUSES
 401->Unauthorized(When authorization fails)
 404->resource not found
 500->server exception
+----------------------------------------------------------------------------------
+
+Versioning  REST API
+Variety of options:
+
+URI-Twitter
+
+Request Parameter-Amazon
+
+Header
+
+Media Type
+
+-----------------------------------
