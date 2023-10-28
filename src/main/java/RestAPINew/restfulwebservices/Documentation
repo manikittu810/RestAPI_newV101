@@ -92,3 +92,10 @@ Factors to consider
 -Misuse of HTTP headers
 -Caching
 -can we execute the request on the browser
+-API Documentation
+Summary:No perfect solution
+Recommendations
+-Think about versioning before you need it
+One Enterprise -One versioning approach
+---------------------------------------------------------
+HATEOAS -HYPERMEDIA AS THE ENGINE OF APPLICATION STATE
