@@ -99,3 +99,9 @@ Recommendations
 One Enterprise -One versioning approach
 ---------------------------------------------------------
 HATEOAS -HYPERMEDIA AS THE ENGINE OF APPLICATION STATE
+
+
+
+REST API Serialization :  Convert object to stream (Eg : JSON)
+Most Popular REST API serialization in java is Jackson.
+
