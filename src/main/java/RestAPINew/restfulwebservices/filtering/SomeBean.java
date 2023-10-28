@@ -1,8 +1,10 @@
 package RestAPINew.restfulwebservices.filtering;
 
+import com.fasterxml.jackson.annotation.JsonFilter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+@JsonFilter("SomeBeanFilter")
 //@JsonIgnoreProperties({"filed1","field2"})
 public class SomeBean {
     private String filed1;
