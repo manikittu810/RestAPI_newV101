@@ -9,7 +9,7 @@ PATCH - Update part of a resource
 DELETE -  Delete  a resource
 
 
-
+--------------------------------------------------------------------------
 
 Social Media Application - resources and Methods
 
@@ -105,3 +105,4 @@ HATEOAS -HYPERMEDIA AS THE ENGINE OF APPLICATION STATE
 REST API Serialization :  Convert object to stream (Eg : JSON)
 Most Popular REST API serialization in java is Jackson.
 
+-----------------------------------------------------------------------------
