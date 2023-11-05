@@ -106,3 +106,15 @@ REST API Serialization :  Convert object to stream (Eg : JSON)
 Most Popular REST API serialization in java is Jackson.
 
 -----------------------------------------------------------------------------
+
+Spring security -> iT intercepts the requests and there will be number of filter chains
+1) All requests should be authenticated
+2)If a request is not authenticated, a web page is down
+3)CSRF->POST,PUT
+
+->creating a Spring
+Configuration file
+
+
+Bean FilterChain
+------------------------------------------------------------------
